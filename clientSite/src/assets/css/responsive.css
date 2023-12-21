@@ -1,0 +1,53 @@
+/* In your CSS file or style component */
+.blurred-background {
+    filter: blur(5px);
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(87, 86, 86, 0.8);
+    z-index: 1000;
+}
+
+.modal-container {
+    position: fixed;
+    z-index: 1001;
+}
+
+
+
+@media (max-width: 575px){
+    .main-container-login{
+        display: flex !important;
+        flex-wrap:wrap;
+    }
+}
+
+
+/* Styles for small screens (e.g., mobile devices) */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    /* Adjust the width of select inputs */
+    .form-control {
+        width: 100% !important;
+    }
+
+    /* Add responsive styles for other elements as needed */
+}
+
+/* Styles for medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Add specific styles for medium screens here */
+}
+
+/* Styles for large screens (e.g., desktop) */
+@media (min-width: 993px) {
+    /* Add specific styles for large screens here */
+}

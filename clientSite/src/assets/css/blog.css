@@ -1,0 +1,181 @@
+.card-img-top-blog {
+        height: 175px;
+        width: -webkit-fill-available;
+
+}
+
+
+.latestBlog h4 {
+        color: #214695;
+        padding: 20px;
+}
+
+.latestBlog h3 {
+        padding: 10px
+}
+
+.banner {
+        display: flex;
+}
+
+.card-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+
+.card-img img {
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+}
+
+.card-img h5 {
+        margin-left: 10px;
+        width: 144px;
+}
+
+
+.card-img a {
+        border-radius: 10px;
+        padding: 8px;
+        text-decoration: none;
+        color: #214695;
+        background-color: #fff;
+        width: 115px;
+        text-align: center;
+        border: 1px solid #214695;
+
+
+}
+
+.card-img a:hover {
+        background-color: #214695;
+        color: #fff;
+
+}
+
+/* .card-widths{
+        width: 46vw;
+} */
+
+
+.startup-section {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+
+}
+
+.main-Card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+}
+
+.main-Card {
+
+        border: 1px solid;
+        border-radius: 10px;
+}
+
+.imgCard img {
+        width: 231px;
+        height: 200px;
+}
+
+.contentCardBlog {
+        padding: 20px 5px 8px 5px;
+        border-left: 1px solid #c4c4c4;
+}
+
+.contentCardBlog p {
+        width: 20vw;
+}
+
+.contentCardBlog h5 {
+        color: #214695;
+        padding: 15px;
+
+}
+
+.horizontalCard {
+        padding: 20px;
+}
+
+.horizontalCard h3 {
+        color: #214695;
+
+}
+
+
+.main-Card:hover {
+
+        transition: all 0.3s;
+        box-shadow: 0px 5px 10px 2px rgb(0 0 0 / 16%);
+
+}
+
+.mobileApp {
+        padding: 20px;
+}
+
+.mobileApp h3 {
+        color: #214695;
+}
+
+.mobileApp h2 {
+        padding: 30px;
+}
+
+.techNews {
+        padding: 20px;
+}
+
+.techNews h4 {
+        color: #214695;
+
+}
+
+.techNews h2 {
+        padding: 20px;
+}
+
+
+
+.line {
+        border: 1px dotted #c4c4c4;
+        margin-bottom: 10px;
+}
+
+.blog-vertical-card-width {
+        padding: 10px;
+        border: 1px solid #c4c4c4;
+}
+
+@media (max-width: 750px) {
+        .blog-main-container {
+                justify-content: space-evenly;
+        }
+
+}
+
+@media (max-width: 565px) {
+        .imgCard img {
+                width: 92vw;
+        }
+
+        .contentCardBlog {
+                padding: 10px;
+                border-left: 0px;
+        }
+
+        .card-img h5 {
+                margin-left: 0px;
+                width: 139px;
+        }
+
+}

@@ -1,0 +1,327 @@
+/* Add these styles to your existing CSS or create a new CSS file */
+
+.modal-overlay {
+    position: fixed;
+    top: 100px;
+    /* bottom: 20px; */
+    left: 180px;
+    width: 65vw;
+    /* height: 40vw; */
+    background: white;
+    /* background: yellowgreen; */
+    border-radius: 10px;
+    border: 1px solid black;
+    backdrop-filter: blur(5px);
+
+}
+
+.modal-content {
+    background-color: #fff;
+    z-index: 1001;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+
+.modal-close {
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    background-color: transparent;
+    /* border: 2px solid #214769; */
+    color: red;
+
+}
+
+
+
+.modalContent {
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    color: black;
+
+}
+
+.modalmaincotainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.modalBackgroundImg {
+
+    border-radius: 10px;
+    background-size: cover;
+    width: 200px;
+    /* height: 443px; */
+    background-repeat: no-repeat;
+
+}
+
+.modalBackgroundImg img {
+    width: 32.5vw;
+    height: -webkit-fill-available;
+    border-radius: 10px;
+}
+
+.submitEnquiry {
+    background-color: #214769;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+.submitEnquiry:hover {
+    background-color: #3476b0;
+    color: white;
+}
+
+.afterenquiryformcontent {
+    margin-top: 5px;
+
+}
+
+.afterenquiryformcontent li {
+    color: #717171;
+    font-weight: 400;
+}
+
+
+
+
+/* new code  */
+
+
+.input {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 5px !important;
+    background: none;
+    height: 47px !important;
+    color: black;
+    padding: 0px 8px;
+    font-size: 1.2em;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 28vw;
+}
+
+
+
+.user-label {
+    position: absolute;
+    left: 20px;
+    color: black;
+    font-weight: 400 !important;
+    pointer-events: none;
+    transform: translateY(13px);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 15px !important;
+}
+
+
+
+.input:focus~label,
+input:valid~label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #f9f8ff;
+    padding: 0 0.2em;
+    color: #4f419a;
+}
+
+.input:focus,
+.input:valid {
+    outline: none;
+    border: 1.5px solid #4f419a;
+}
+
+
+.enquiryformclosebutton {
+
+    display: none;
+    position: relative;
+    bottom: 410px;
+
+}
+
+
+
+
+
+@media (max-width:1440px) {
+    .modal-overlay {
+        width: 80vw;
+        left: 110px;
+    }
+
+    .modalBackgroundImg img {
+        width: 40vw;
+    }
+}
+
+
+
+@media (max-width:1147px) {
+    .user-label {
+        transform: translateY(13px);
+    }
+
+    .input:focus~label,
+    input:valid~label {
+        transform: translateY(-50%) scale(0.8);
+
+    }
+}
+
+@media (max-width:903px) {
+    .user-label {
+        transform: translateY(13px);
+    }
+
+    .input:focus~label,
+    input:valid~label {
+        transform: translateY(-250%) scale(0.8);
+
+    }
+}
+
+@media (max-width:768px) {
+
+
+    .modalBackgroundImg {
+        display: none;
+    }
+
+    .modalmaincotainer {
+
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+
+    .modalContent {
+        text-align: center;
+    }
+
+    .input {
+        width: 47vw;
+    }
+
+    .user-label {
+        transform: translateY(14px);
+    }
+
+    .input:focus~label,
+    input:valid~label {
+        transform: translateY(-50%) scale(0.8);
+
+    }
+
+    .user-label {
+        left: 120px;
+    }
+
+    .modal-overlay {
+        left: 130px;
+    }
+
+    .modal-close {
+        right: 257px;
+        color: red;
+    }
+
+    .enquiryformclosebutton {
+        display: block;
+        background-color: transparent;
+        border: none;
+        left: 271px;
+
+    }
+}
+
+@media (max-width:540px) {
+
+    .user-label {
+        left: 40px;
+    }
+
+    .modal-overlay {
+        left: 94px;
+    }
+
+}
+
+@media (max-width:493px) {
+    .enquiryformclosebutton {
+        bottom: 467px;
+        left: 115px;
+
+    }
+}
+
+@media (max-width:430px) {
+    .modal-overlay {
+        left: 43px;
+    }
+
+    .input {
+        width: 54vw;
+    }
+
+    .user-label {
+        left: 40px;
+    }
+
+    .enquiryformclosebutton {
+        bottom: 410px;
+        left: 129px;
+    }
+}
+
+@media (max-width:390px){
+    .enquiryformclosebutton {
+            bottom: 463px;
+            left: 129px;
+        }
+}
+
+
+
+@media (max-width:377px) {
+    .user-label {
+        transform: translateY(13px);
+    }
+
+    .input:focus~label,
+    input:valid~label {
+        transform: translateY(-250%) scale(0.8);
+
+    }
+
+        .enquiryformclosebutton {
+            bottom: 491px;
+            left: 114px;
+        }
+}
+
+@media (max-width:320px) {
+    .modal-overlay {
+        left: 60px;
+    }
+
+    .enquiryformclosebutton {
+        bottom: 569px;
+        left: 73px;
+
+    }
+}
+

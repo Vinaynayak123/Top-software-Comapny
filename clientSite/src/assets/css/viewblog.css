@@ -1,0 +1,123 @@
+.viewBlogParent {
+    padding: 50px 10px 10px 10px;
+    display: flex;
+}
+
+.viewblogfirstchild {
+    padding: 20px;
+}
+
+.viewblogfirstchild p {
+    color: #214696;
+}
+
+.viewblogfirstchild h2 {
+    padding: 10px;
+}
+
+.viewblogfirstchildimg {
+    display: flex;
+    padding: 15px;
+}
+
+.viewblogfirstchildimg img {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.viewblogsecondchild img {
+    border-radius: 20px;
+    width: 38vw;
+}
+
+.viewblogfirstchildname {
+    padding: 5px;
+}
+
+.viewblogfirstchildname h6 {
+    margin-bottom: 0px;
+}
+
+.viewblogfirstchildname p {
+    color: #a5a4a4;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.viewblogfirstchildbtn {
+    padding: 0px 15px;
+}
+
+.viewblogfirstchildbtn button {
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: #214696;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.allsocialmedia {
+    display: flex;
+    padding: 10px;
+}
+
+.firstSocialfacebook {
+    margin: 0px 10px;
+}
+
+
+
+.secondSocialtwetter {
+    margin: 0px 10px;
+}
+
+.thirdSociallinkdin {
+    margin: 0px 10px;
+}
+
+.fourSocialmedia {
+    margin: 0px 10px;
+}
+
+.viewblogcenter {
+    padding: 20px;
+}
+
+
+.viewblogtextbody {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+
+}
+
+
+
+.viewblogleftsideinside {
+    text-align: center;
+    padding: 30px;
+    position: sticky;
+    top: 60px;
+}
+
+.viewblogrightsidecontainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.viewblogcenterheading {
+    font-weight: 800;
+    font-size: large;
+
+}
+
+.viewblogrightside{
+    padding: 30px;
+    
+}
+
+.viewblogrightsidecontainer {
+    padding: 30px;
+    position: sticky;
+    top: 60px;
+}

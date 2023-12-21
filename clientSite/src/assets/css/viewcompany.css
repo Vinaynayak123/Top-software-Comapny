@@ -1,0 +1,219 @@
+ .viewcompanynamecontainer {
+     padding: 10px;
+     border: 1px solid #ccc;
+     width: 96vw;
+     margin: 20px 16px;
+     border-radius: 10px;
+
+ }
+
+ .viewcompanymaintraininginstitude {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .viewcompanybuttontraing {
+     width: 100%;
+     display: flex;
+     justify-content: end;
+     height: 30px;
+     font-size: 15px;
+ }
+
+ .viewcompanybuttontraingaccounting {
+     border: 1px solid #c4c4c4;
+     border-radius: 5px;
+     transition: all.8s;
+ }
+
+ .viewcompanybuttontraingit {
+     margin: 0px 10px;
+     border: 1px solid #c4c4c4;
+     border-radius: 5px;
+     transition: all.8s;
+ }
+
+ .viewcompanyfirstcontainer {
+     padding: 10px;
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+
+ .viewcompanylocation {
+     display: flex;
+     flex-wrap: wrap;
+
+     margin-bottom: 0px;
+ }
+
+ .opentimeviewcompany {
+     color: green;
+     font-weight: 600;
+ }
+
+ .viewcomapnymobilebutton {
+     width: 200px;
+     /* height: 50px; */
+     background-color: #339d3a;
+     padding: 5px;
+     color: #fff;
+     border: 1px solid #339d3a;
+     border-radius: 7px;
+ }
+
+ .viewcomapnymobilebutton:hover {
+     color: #fff;
+     background-color: #38d943;
+     transition: all.8s;
+ }
+
+ .viewcompsnychatbutton {
+     width: 175px;
+     /* height: 50px; */
+     background-color: #fff;
+     color: black;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     padding: 5px;
+     margin-left: 5px;
+     transition: all.8s;
+ }
+
+ .viewcompsnychatbutton:hover {
+     background-color: #ededed;
+ }
+
+ .viewcompanymainenquirybutton {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: end;
+     width: 100%;
+ }
+
+ .viewcompanyenquirynowbutton {
+     width: 200px;
+     height: 50px;
+ }
+
+ .trust {
+     height: 28px;
+ }
+
+ .varified {
+     height: 28px;
+ }
+
+ .viewcompanyenquirynowbutton {
+     background-color: #0076d7;
+     border: 1px solid #0076d7;
+     border-radius: 7px;
+     padding: 5px;
+     margin: 3px;
+     color: #fff;
+ }
+
+ .viewcompanyenquirynowbutton:hover {
+     background-color: #198cea;
+     color: #fff;
+     transition: all.8s;
+ }
+
+ .viewcompanybutton {
+
+     padding-left: 40px;
+     display: flex;
+ }
+
+ .viewcompanysecondcontainer {
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+
+ .viewcompanysecondfirstchild {
+    width: 97vw;
+     border-radius: 10px;
+     padding: 20px;
+     border: 1px solid #c4c4c4;
+     margin: 0px 19px 10px 15px;
+     
+ }
+
+ .viewcompanyquickinfo {
+    justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+ }
+
+ .viewcompanyaddress {
+    /* width: 97vw; */
+     border-radius: 10px;
+     padding: 20px;
+     border: 1px solid #c4c4c4;
+     margin: 0px 10px 10px 10px;
+    font-family: "Poppins", sans-serif;
+
+ }
+
+ .viewcompanysendenquirybyemail {
+     border: none;
+     background-color: white;
+     width: 100%;
+     text-align: start;
+     padding: 5px;
+     border-radius: 5px;
+     transition: all.8s;
+ }
+
+ .viewcompanysendenquirybyemail:hover {
+     background-color: #eee;
+ }
+
+ .viewcompanyquickinfosecondcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ @media (max-width : 594px){
+    .viewcompanybuttontraing{
+        flex-wrap: wrap;
+        
+    }
+
+    .viewcompanybuttontraingit{
+        margin-top: 5px;
+    }
+    
+ }
+
+ @media (max-width : 500px){
+
+    .viewcompanybutton{
+        padding-left: 0px;
+    }
+
+    .viewcompanyenquirynowbutton{
+        width: auto;
+        height: auto;
+    }
+ }
+
+ @media (max-width : 464px){
+    .viewcompanylocation{
+        flex-direction: column;
+        width: fit-content;
+    }
+ }
+
+ @media (max-width:390px){
+    .viewcompanysecondcontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .viewcompanynamecontainer{
+            margin: 20px 8px;
+        }
+ }

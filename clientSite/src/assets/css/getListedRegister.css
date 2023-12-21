@@ -1,0 +1,70 @@
+.getListedBackgroundImage {
+    /* background-image: url("../img/blogBanner1.png"); */
+    /* height: 60vh; */
+    background-image: url(https://sulcdn.azureedge.net/content/images/happy-bg.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position-y: -445px;
+    position: relative;
+    text-align: center;
+    padding-top: 75px;
+    opacity: 0.4;
+
+}
+
+.getListedBackgroundImage h6 {
+    /* padding: 20px 361px; */
+
+}
+
+.getListedFormMain {
+    width: 98vw;
+    top: -122px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.getListedForm {
+    background-color: aliceblue;
+    display: flex;
+    /* width: 40vw; */
+    border: 1px solid;
+    /* margin-left: 50px; */
+    transition: box-shadow .25s;
+    border-radius: 10px;
+    /* background: white; */
+   
+    padding: 20px 30px;
+    text-align: center;
+
+}
+
+.getListedInput {
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.getListedInput input {
+    
+    margin: 10px 0px;
+    width: 35vw;
+}
+
+.getListedFormButton button {
+    padding: 5px;
+    width: 100px;
+    color: #214695;
+    border: 1px solid #214695;
+    border-radius: 5px;
+
+}
+
+.getListedFormButton button:hover {
+    background-color: #214695;
+    color: #fff;
+    border: 1px solid white;
+}
+

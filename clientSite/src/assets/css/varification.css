@@ -1,0 +1,37 @@
+
+.enterotptopcontainer{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+}
+.enter-otp-section{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    width: 40vw;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.opt-container{
+    justify-content: center;
+}
+
+.varifybtn{
+    width: 40%;
+    background-color: #219421;
+    border: none;
+}
+.varifybtn:hover{
+    color: #fff;
+    background-color: #13cb13;
+
+}
+
+.otptext{
+    font-weight: 800;
+}
+
+
